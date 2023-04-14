@@ -55,36 +55,6 @@ export class WidgetDashboard {
     );
   }
 
-  /*labels = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-  ];*/
- ;
-  /*config: any = {
-    type: 'line',
-    data: this.data,
-    options: {}
-  };*/
-
-  private changedDatasetEvent = (event: any) => {
-    console.log('esto=',event)
-    /*if(event.path[0].selectedIndex === 0) {
-      this.data.datasets[0].data = [0, 10, 5, 2, 20, 30, 45];
-      this.data.datasets[0].label = "My First Dataset";
-    } else if (event.path[0].selectedIndex === 1) {
-      this.data.datasets[0].data = [30, 20, 40, 45, 20, 3, 10];
-      this.data.datasets[0].label = "My Second Dataset";
-    } else {
-      this.data.datasets[0].data = [10, 10, 15, 12, 120, 130, 145];
-      this.data.datasets[0].label = "My Third Dataset";
-    }*/
-    //this.changedDataset.emit(this.config); // now correct this
-  }
-
   render() {
     return (
       <div class="chartContainer">
