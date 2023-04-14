@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Principal-Widget-Dashboard</title>
+    <script type="module" src="/build/principal-widget-dashboard.esm.js"></script>
+    <script nomodule src="/build/principal-widget-dashboard.js"></script>
+  </head>
+  <body>
+    <principal-widget-dashboard
+    title="data"
+    labels="data"
+    colors="data"
+    values="data"
+    ></principal-widget-dashboard>
+    <script>
+      const principalComponent = document.querySelector("principal-widget-dashboard");
+      //element.myObject = {};
+      principalComponent.title  = "Cuenta Principal";
+      principalComponent.labels = ["Afore","Fondo Inversión","Ahorro"];
+      principalComponent.colors = ["#0076CF","#BBE6FC","#002855",];
+      principalComponent.values = [1000,3080,2500];
+    </script>
+  </body>
+</html>
